@@ -98,3 +98,24 @@ Live HTML Previewer.
 
 * column-reverse: ordenação inversa, de baixo para cima.
 
+
+#### Estrutura básica do flex wrap
+
+É a propriedade que define se os itens devem ou não quebrar alinha.
+
+Por padrão eles não quebram linhas, isso faz com que os flex itens sejam compactado além do limite do conteúdo.
+
+#### nowrap.
+
+* É o padrão, no permite a quebta de linha.
+
+#### wrap.
+
+Premite a quebra de linha assim que um dos flex itens não puder mais ser compactado.
+
+#### wrap-reverse.
+
+Premite a quebra de linha assim que um dos flex itens não puder mais ser compactodo, porém na direção contrária da linha, acima.
+
+
+

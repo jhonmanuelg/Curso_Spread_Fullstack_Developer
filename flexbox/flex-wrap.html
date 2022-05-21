@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funadamentos - flex wrap</title>
+    <style>
+        .flex_container {
+            display: flex;
+            height: 150px;
+            border: 1px solid red;
+            max-width: 300px;
+
+        }
+
+        .item {
+            font-size: 24px;
+            width: 100px;
+            height: 50%;
+            text-align: center;
+            line-height: 60px;
+            min-width: 100px;
+        }
+
+        .nowrap {
+            flex-wrap: nowrap;
+        }
+
+        .wrap{
+            flex-wrap: wrap;
+        }
+
+        .wrap-reverso{
+            flex-wrap: wrap-reverse;
+        }
+
+        .blue {
+            
+            background-color: blue;
+            color: white;
+        }
+
+        .gree {
+            background-color: lightblue;
+        }
+
+        .orange {
+            background-color: bisque;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> no wrap</h1>
+    <div class="flex_container nowrap">
+        <div class="item blue">item #1 </div>
+        <br>
+        <div class="item gree">item #2 </div>
+        <br>
+        <div class="item orange">item #3 </div>
+        <br>
+        <div class="item blue">item #4 </div>
+
+    </div>
+
+    <h1>wrap</h1>
+
+    <div class="flex_container wrap">
+        <div class="item gree">#1 item</div>
+        <div class="item blue">#2 item</div>
+        <div class="item orange">#3 item</div>
+        <div class="item gree">#4 item</div>
+    </div>
+
+    <h1>wrap-reverso.</h1>
+
+    <div class="flex_container wrap-reverso">
+        <div class="item gree">#1 item</div>
+        <div class="item blue">#2 item</div>
+        <div class="item orange">#3 item</div>
+        <div class="item orange">#4 item</div>
+    </div>
+</body>
+
+</html>
