@@ -123,3 +123,25 @@ Premite a quebra de linha assim que um dos flex itens não puder mais ser compac
 * É um atalho para as propriedade flex- direction e flex-wrao. 
 
 Porém seu uso não  é tão comum, visto que, quanto mudamos o flex-direction para column, mantemoos o ppadrão do flex-wrap que é nowrap.
+
+
+#### justify content.
+
+
+* Essa propiedade vai se encarregar de alinhar os itens dentro dom container de acordo com a direção pretendida e tratar da distribuição de espaçamento entre eles.
+
+**OBS:** Caso seus itens esteja ocipando 100% de todo o coontainer ele não se aplica.
+
+
+#### As variações:
+
+* flex-start: inicio do container.
+
+* flex-end: final do container.
+
+* center: ao centro do conytainer.
+
+* space-between: cria um espaçamento igual entre os elementos.
+
+* space-around: os espaçamentos do meio são duas vezes maiores que o inicial e final.
+
