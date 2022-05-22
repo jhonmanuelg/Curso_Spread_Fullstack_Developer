@@ -5,7 +5,7 @@
 * Entender a diferença entre Flex container e Flex Iten.
 * Conhecer inicialmente alguma propiedades.
 
-### Suporte.
+### Suporte:
 
 * Foi projetado como um modelo de layout unidimensional e como uma método que pode ofereceer distribuição de espaço entre itens em uma interface e recurso de alinhamento.
 
@@ -84,7 +84,7 @@ Live HTML Previewer.
 
 2- Apren der a modificar a orientação horizontal.
 
-#### Flex-direction.
+### Flex-direction.
 
 * É a propriedade que establece o eixo principal do container, defininso assim a dereção que os flex items são colocados no flex container.
 
@@ -99,33 +99,33 @@ Live HTML Previewer.
 * column-reverse: ordenação inversa, de baixo para cima.
 
 
-#### Estrutura básica do flex wrap
+### Estrutura básica do flex wrap
 
 É a propriedade que define se os itens devem ou não quebrar alinha.
 
 Por padrão eles não quebram linhas, isso faz com que os flex itens sejam compactado além do limite do conteúdo.
 
-#### nowrap.
+### nowrap.
 
 * É o padrão, no permite a quebta de linha.
 
-#### wrap.
+### wrap.
 
 Premite a quebra de linha assim que um dos flex itens não puder mais ser compactado.
 
-#### wrap-reverse.
+### wrap-reverse.
 
 Premite a quebra de linha assim que um dos flex itens não puder mais ser compactodo, porém na direção contrária da linha, acima.
 
 
-#### Flex flow
+### Flex flow
 
 * É um atalho para as propriedade flex- direction e flex-wrao. 
 
 Porém seu uso não  é tão comum, visto que, quanto mudamos o flex-direction para column, mantemoos o ppadrão do flex-wrap que é nowrap.
 
 
-#### justify content.
+### justify content.
 
 
 * Essa propiedade vai se encarregar de alinhar os itens dentro dom container de acordo com a direção pretendida e tratar da distribuição de espaçamento entre eles.
@@ -133,7 +133,7 @@ Porém seu uso não  é tão comum, visto que, quanto mudamos o flex-direction p
 **OBS:** Caso seus itens esteja ocipando 100% de todo o coontainer ele não se aplica.
 
 
-#### As variações:
+### As variações:
 
 * flex-start: inicio do container.
 
@@ -145,3 +145,23 @@ Porém seu uso não  é tão comum, visto que, quanto mudamos o flex-direction p
 
 * space-around: os espaçamentos do meio são duas vezes maiores que o inicial e final.
 
+
+### align items
+
+Trata do alinhamento dos flex item de acordo com o eixo do container.
+
+O alinhamento é diferente para quando os item estão em columnas ou linha.
+
+Permite o alinhamento central no eixo vertical. 
+
+### Tipos de alinhamento:
+
+* center: alinhamento dos item ao centro.
+
+* stretch: padrão, e os flex item cresçam igualmente.
+
+* flex-start: alinhamento dos item no inicio.
+
+* flex-end: alinhamento dos item no final.
+
+* beseline: alinhamento de acordo com a linha base da tipografia dos item.
