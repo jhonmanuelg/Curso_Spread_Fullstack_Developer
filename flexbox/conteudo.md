@@ -165,3 +165,25 @@ Permite o alinhamento central no eixo vertical.
 * flex-end: alinhamento dos item no final.
 
 * beseline: alinhamento de acordo com a linha base da tipografia dos item.
+
+### align content
+
+È  a propiedade responsável por tratar o alinhamento das loinhas do container en relação ao eixo vertical do contaiener.
+
+#### Precisamos que:
+
+* O container utilize quebra de linhas
+
+* A altura do container seja maior que a soma das das linhas dos item.
+
+#### Tipos de alinhamento:
+
+* center: alinhamento dos item ao centro.
+
+* stretch: é o padrão e os flex item crescem igualmente
+
+* flex-start: alinha mento dos item no inicio.
+
+* space-between: cria um espaçamento igual entre os elementos.
+
+* space-around: cria um espaçamento do meio são duas vezes maiores que o inicio e final.
