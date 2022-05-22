@@ -118,4 +118,8 @@ Premite a quebra de linha assim que um dos flex itens não puder mais ser compac
 Premite a quebra de linha assim que um dos flex itens não puder mais ser compactodo, porém na direção contrária da linha, acima.
 
 
+#### Flex flow
 
+* É um atalho para as propriedade flex- direction e flex-wrao. 
+
+Porém seu uso não  é tão comum, visto que, quanto mudamos o flex-direction para column, mantemoos o ppadrão do flex-wrap que é nowrap.
