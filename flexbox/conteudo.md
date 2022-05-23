@@ -217,3 +217,6 @@ Permite o alinhamento central no eixo vertical.
 
 Esta propriedade é uma atalho ou abreviação de escrita para as propriedades: grow,shirink e basis.
 
+### order.
+
+Controla a ordem em que flex items aparecem no container
