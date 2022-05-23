@@ -187,3 +187,11 @@ Permite o alinhamento central no eixo vertical.
 * space-between: cria um espaçamento igual entre os elementos.
 
 * space-around: cria um espaçamento do meio são duas vezes maiores que o inicio e final.
+
+### Parte 2 - flex item
+
+#### flex grow:
+
+* Define a propriedade de crescimiento dos item, respeitando o tamanho de seu conteúdos internos.
+
+**OBS**: Não irá funcionar caso tenhamos adicionado justify-content.
