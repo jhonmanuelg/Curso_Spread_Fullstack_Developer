@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jhonm"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-25 03:47:59 "/>
+        <attribute name="created" value="amhvbm07REVTS1RPUC1OSUI4TEwyOzIwMjItMDQtMjU7IjAzOjM3OjMwICI7Mjc4Ng=="/>
+        <attribute name="edited" value="amhvbm07REVTS1RPUC1OSUI4TEwyOzIwMjItMDQtMjU7IjAzOjQ3OjU5ICI7MTsyOTA2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nt1, nt2, nt3, nt4, media" type="Real" array="False" size=""/>
+            <input variable="nt1"/>
+            <input variable="nt2"/>
+            <input variable="nt3"/>
+            <input variable="nt4"/>
+            <assign variable="media" expression="(nt1+nt2+nt3+nt4)/4"/>
+            <output expression="media" newline="True"/>
+            <if expression="media&gt;7">
+                <then>
+                    <output expression="&quot;voce aprovo&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;voce no aprovo&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
