@@ -195,3 +195,17 @@ Permite o alinhamento central no eixo vertical.
 * Define a propriedade de crescimiento dos item, respeitando o tamanho de seu conteúdos internos.
 
 **OBS**: Não irá funcionar caso tenhamos adicionado justify-content.
+
+
+### flex basis.
+
+É a propriedade que establece o tamanho inicial do item antes das distribuição de espaço restante dele, usando como base o conteúdo interno disposto.
+
+#### Valores possíveis:
+
+* auto:caso o item não tenha tamanho, este será propocional ao conteúdo do item.
+
+* px, % em, ....: São valores exatos previamente definidos.
+
+* 0 **(Zero)**: terá ralação com a definição do flex-grow.
+
