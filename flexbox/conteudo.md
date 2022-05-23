@@ -209,3 +209,6 @@ Permite o alinhamento central no eixo vertical.
 
 * 0 **(Zero)**: terá ralação com a definição do flex-grow.
 
+### flex Shrink.
+
+É a propriedade que establecer a capacidade de redução ou compressão do tamanho de um item.
