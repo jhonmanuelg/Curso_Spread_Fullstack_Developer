@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamento - flex</title>
+    <style>
+        .container {
+            display: flex;
+            border: 2px solid red;
+            max-width: 400px;
+        }
+
+        .item {
+            margin: 5px;
+            background-color: aqua;
+            color: black;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .flex-1 {
+            flex: 1;
+            /* grow = 1, shrink = 1, basis = 0 */
+        }
+
+        .flex-largura {
+            width: 200px;
+            /* min-width: 250px; */
+            /* flex: 1; */
+            /* grow = 1, shrink = 1, basis = 0 */
+        }
+
+        .flex-2 {
+            flex: 2;
+            /* grow = 1, shrink = 1, basis = 0 */
+        }
+    </style>
+</head>
+
+<body>
+    <p>flex: 1; </p>
+    <div class="container">
+        <div class="item flex-1">I</div>
+        <div class="item flex-1">Item</div>
+        <div class="item flex-1">Item</div>
+        <div class="item flex-1">It</div>
+        <div class="item flex-1">Ite</div>
+    </div>
+
+    <p>flex: 2; </p>
+    <div class="container">
+        <div class="item flex-2">I</div>
+        <div class="item flex-1">Item</div>
+        <div class="item flex-1">Item</div>
+        <div class="item flex-2">It</div>
+        <div class="item flex-1">Ite</div>
+    </div>
+
+    <p>flex: 1; width: 200px;</p>
+    <div class= "container">
+        <div class="item flex-1 flex-largura">I</div>
+        <div class="item flex-1 flex-largura">Item</div>
+        <div class="item flex-1 flex-largura">Item</div>
+        <div class="item flex-1 flex-largura">It</div>
+        <div class="item flex-1 flex-largura">Ite</div>
+    </div>
+
+</body>
+
+</html>

@@ -212,3 +212,8 @@ Permite o alinhamento central no eixo vertical.
 ### flex Shrink.
 
 É a propriedade que establecer a capacidade de redução ou compressão do tamanho de um item.
+
+### Flex.
+
+Esta propriedade é uma atalho ou abreviação de escrita para as propriedades: grow,shirink e basis.
+
