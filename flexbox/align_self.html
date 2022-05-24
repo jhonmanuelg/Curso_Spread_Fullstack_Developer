@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamento - align self</title>
+    <style>
+        .container{
+            max-width: 350px;
+            border: 2px solid red;
+            display: flex;
+        }
+
+        .containerAlign{
+            align-items: center;
+
+        }
+
+        .item{
+            background-color: rgb(239, 166, 7);
+            color: black;
+            font-size: 24px;
+            margin: 5px;
+            text-align: center;
+        }
+
+        .center{
+            align-self: center;
+            
+        }
+
+        .start{
+            align-self: flex-start;
+        }
+
+        .end{
+            align-self: flex-end;
+        }
+
+        .stretch{
+            align-self: stretch;
+        }
+
+        .baseline{
+            align-self: baseline;
+        }
+
+        .auto{
+            align-self: auto;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <p>align-self: auto; e align-items: center;</p>
+    <section class="container containerAlign">
+        <div class="item auto">itemkk</div>
+        <div class="item auto">item</div>
+        <div class="item auto">item Lorem ipsum dolor sit amet consectetur.</div>
+        <div class="item auto">itç</div>
+    </section>
+
+    <p>align-self: auto;</p>
+    <section class="container">
+        <div class="item start">itemkk</div>
+        <div class="item center">item</div>
+        <div class="item stretch">item Lorem ipsum dolor sit amet consectetur.</div>
+        <div class="item end">itç</div>
+        <div class="item baseline">itç</div>
+    </section>
+    
+</body>
+</html>

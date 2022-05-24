@@ -220,3 +220,22 @@ Esta propriedade é uma atalho ou abreviação de escrita para as propriedades: 
 ### order.
 
 Controla a ordem em que flex items aparecem no container
+
+### align self.
+
+É a propriedade wur establece o alinhamento de ,odo individual sobre um determinado item.
+
+#### Valores possíveis:
+
+
+* auto: valor padrão, irá respeitar a definição de align-item do container.
+
+* flex-start: ao início do container.
+
+* flex.end: ao final do container.
+
+* center: relativo ao centro de acordo com o eixo.
+
+* atretch: ocupa todo os espaço relativo.
+
+* baseline: utiliza a linha base da tipografia.

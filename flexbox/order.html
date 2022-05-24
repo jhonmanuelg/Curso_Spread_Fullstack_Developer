@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fundamentos - order</title>
     <style>
-        .container{
+        .container {
             display: flex;
             max-width: 450px;
             border: 2px solid red;
         }
 
-        .item{
+        .item {
             flex: 1;
             margin: 2px;
             background-color: rgb(28, 70, 70);
@@ -21,27 +22,33 @@
             font-size: 24px;
         }
 
-        .direction{
+        .direction {
             flex-direction: column;
         }
 
-        .orden-0{
+        .orden-0 {
             order: 0;
         }
 
-        .orden-1{
+        .orden-1 {
             order: 1;
         }
 
-        .orden-2{
+        .orden-2 {
             order: 2;
         }
 
-        .orden-3{
+        .orden-3 {
             order: 3;
+        }
+
+        /* orde negativo */
+        .orden-4 {
+            order: -4;
         }
     </style>
 </head>
+
 <body>
     <h1>row</h1>
     <p>order: 0;</p>
@@ -58,12 +65,12 @@
         <div class="item orden-3">2 Item</div>
         <div class="item">3 Item</div>
         <div class="item orden-2">4 Item</div>
-        <div class="item" >5 Item</div>
+        <div class="item">5 Item</div>
         <div class="item orden-1">6 Item</div>
     </div>
 
     <!--===========================================-->
-   <h1>column</h1>
+    <h1>column</h1>
     <p>order: 0;</p>
     <div class="container direction">
         <div class="item">1 Item</div>
@@ -74,15 +81,16 @@
 
     <p>order: 0; / diferente</p>
     <div class="container direction">
-        <div class="item">1 Item</div>
+        <div class="item orden-4">1 Item</div>
         <div class="item orden-3">2 Item</div>
         <div class="item">3 Item</div>
         <div class="item orden-2">4 Item</div>
-        <div class="item" >5 Item</div>
+        <div class="item">5 Item</div>
         <div class="item orden-1">6 Item</div>
     </div>
 
 
 
 </body>
+
 </html>
