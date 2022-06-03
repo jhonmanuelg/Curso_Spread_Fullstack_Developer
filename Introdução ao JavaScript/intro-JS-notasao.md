@@ -1,0 +1,188 @@
+# Introdução ao JavaScript
+
+----
+
+## História, Evolução e Aplicações.
+
+
+* Apresentação do curso ADS: Stephany Nusch.
+
+### Objetivo do curso:
+
+Entender o que é javascript, suas aplicações na vida real e conhecer o mercado de trabalho.
+
+### Percurso.
+
+* Aula 1 O que é Javascript
+
+* Aula 2 Recursos basico da linguagem
+
+* Aula 3 Consola
+
+* Aula 3 Javascript unma página da web
+
+* Aula 5 Atividade prática
+
+* Aula 6 Frameworks e mercado de trabalho
+
+*****
+
+
+## Ojetivo
+
+1: Entender a historia da linguagem.
+
+2: Conhecer as principais evoluções.
+
+3: Conhecer aplicações na vida real.
+
+## O que es javascripte.
+
+= uma linguagem de programação que permite a você implementar itens complexos em páginas web toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática mostrando conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc.
+
+### História
+
+* interpretada (rodado em tempo real)
+
+* Baseado em protótipos 
+
+* Multiparadigma
+
+* Comunmente utilizado em aplicações web client-sadi
+
+* Segue o padrão ECMASCRIPT
+
+## Evalução de Javascript.
+
+* ECMAScript 1 => First edition 1997
+
+* ECMAScript 2 => Editorial changes only  1998
+
+* ECMAScript 3 => Regular Expressions. try/catch 1999
+
+* ECMAScript 4 => Never released 1999
+
+* ECMAScript 5 => "strict mode# JSON support String.trim(). Array.isArray(). Array Iteration Methods.
+
+* ECMAScript 6 2015. 
+
+## Aplicações onde usa JS
+
+* Web
+
+* Mobile
+
+* Smartwatches
+
+* Games 
+
+* Internet of things
+
+* APIs
+
+## Manipulando um arquivo
+
+### Objetivos
+
+1: Se familiarizar com a sintaxe da linguagem
+
+2: Entender a diferença entre variavel e constante
+
+3: Ser capaz de comenstar seu código
+
+****
+Como ler um arquivo em JavaScript?
+Use a interface FileReader para ler arquivos de texto em JavaScript. O objeto FileReader permite que aplicativos da web leiam de forma assíncrona o conteúdo dos arquivos (ou buffers de dados brutos) salvos no computador do usuário. Usaremos o método FileReader. readAsText() para ler o arquivo de texto.
+
+****
+
+## Sintaxe e Operadores
+* Apresentação do curso
+
+### Percurso:
+
+Aula 1: Operadores.
+
+Aula 2: Atividade prática.
+---
+
+### Aula 1: Operadores.
+
+= Variáveis e tipos.
+
+##### Objetivo:
+
+* Conhecer os operadores mais ppulares do javascript.
+
+
+##### tipo de operadores são
+
+* Aritimetrica
+* Atribuição
+* Comparação
+* Logica
+* Condicional
+
+#### Que são **Atribuição**
+  ( = )(x = y)(x = y)
+
+   (+=)(x += y)(x = x+y)
+
+   (*=)(x *= y)(x = x *y)
+
+   (/=)(x/=y)(x = x/y)
+
+   (%=)(x %=y )( x = x % y)
+
+   ------
+
+   #### Aritimetrica são:
+
+* ( + Adição)
+
+* ( - Sutração )
+
+* (* Multiplicação)
+
+* ( ** Exponencial)
+
+* ( / Divisão)
+
+* ( % Modulo)
+
+* ( ++ Incrementar)
+
+* ( -- Decrementar)
+
+-----
+
+#### Comparação são:
+
+* (== é igual a)
+* (=== Mesmo valor mesmo tipo)
+* (!= Diferente)
+* (!== Valores e tipos diferente)
+* (> Maior que)
+* (< Menor que)
+* (=> Maior ou que)
+* (<= Menor ou que)
+
+----
+
+#### * Logica
+
+* (&& "e" lógico)
+* (|| "ou" lógico)
+* (! "não" lógico)
+
+---
+
+#### * Condicional
+
+( True (   false (condition) ? expression1 ) : expression2 )
+
+if(condition){
+    statement; //va com expression1
+} else {
+   statement; //va com expression2
+}
