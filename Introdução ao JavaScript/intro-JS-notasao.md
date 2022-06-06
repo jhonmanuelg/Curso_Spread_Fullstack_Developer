@@ -179,10 +179,41 @@ Aula 2: Atividade prática.
 
 #### * Condicional
 
-( True (   false (condition) ? expression1 ) : expression2 )
+( false ( true (condition) ? expression1 ) : expression2 )
 
 if(condition){
     statement; //va com expression1
 } else {
    statement; //va com expression2
 }
+
+----
+
+### Sintaxe e Operadores
+Explicando a atividade
+
+####  Sintaxe e Operadores
+
+Atividade:
+
+* crie uma função que receba dois número como parametros.
+* confira se os número
+* Confira se a soma dos número é maior que 10 ou menor que 20.
+* Retorne uma string dizendo "Os número num1 e num2 não/são iguais. Sua soma é: soma, que é maios/menor que 10 maior/menor que 20"
+
+----
+
+## Variáveis e Tipos
+**Apresentação do curso**
+
+* Objetivo do curso.
+Explicar as principais estruturas de dados do Javascript como utilizá-las e suas possibilidades.
+
+#### Percuso:
+
+Aula 1: De atribuindo valores.
+
+Aula 2: Tipos.
+
+Aula 3: Atividadre prática.
+
