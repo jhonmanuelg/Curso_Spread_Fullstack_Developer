@@ -37,11 +37,12 @@ function comparaNumeros(num1, num2) {
   const primeiraFrase = criaPrimeiraFrase(num1, num2);
   const sengundaFrase = criaSegundaFrase(num1, num2);
 
-  return `${primeiraFrase} ${sengundaFrase}`
+  return `${primeiraFrase} ${sengundaFrase}`;
 }
 
 function criaPrimeiraFrase(num1, num2) {
-  let saoIguais = "";
+  let saoIguais = '';
+
   if (num1 !== num2) {
     saoIguais = "não";
   }
@@ -49,14 +50,14 @@ function criaPrimeiraFrase(num1, num2) {
   return `Òs número ${num1} e ${num2} ${saoIguais} são iguais. `;
 }
 
-function criaPrimeiraFrase(num1, num2) {
+function criaSegundaFrase(num1, num2) {
   const soma = num1 + num2;
 
   let resultado10 = "menor";
   let resultado20 = "menor";
 
-  const compara10 = suma > 10;
-  const compara20 = suma > 20;
+  const compara10 = soma > 10;
+  const compara20 = soma > 20;
 
   if (compara10) {
     resultado10 = "maior";
@@ -68,4 +69,4 @@ function criaPrimeiraFrase(num1, num2) {
   return `Sua soma é ${soma}, que é ${resultado10}, que 10 e ${resultado20}, que 20`;
 }
 
-console.log(comparaNumeros(1, 2))
+console.log(comparaNumeros(17, 28))
