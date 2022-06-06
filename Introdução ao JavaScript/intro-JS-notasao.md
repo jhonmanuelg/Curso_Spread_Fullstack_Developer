@@ -276,3 +276,38 @@ reatibuir.........................sim........não..........sim...
 
 hoisting..........................sin..........não...........não..
 
+## Variáveis e Tipos Estrutura de dados
+
+### Objetivos
+
+1. Apresentar as pricipais estruturas de dados do javascript e seus principais métodos.
+
+
+### Que são Estrutura de dados
+
+*  é uma maneira particular de organizar dados em um computador com o intuito de usar os recursos de modo eficaz. As estruturas de dados e os algoritmos são a base de todas as soluções para qualquer problema de programação.
+
+* **O que são tipos de dados JavaScript**
+Resultado de imagem para que são estrutura de dados javascript
+Os tipos de dados de uma variável Javascript podem ser: String: quase qualquer valor entre aspas simples ou aspas duplas; Numérico: números; Booleano: true (verdadeiro) ou false (falso).
+
+#### tipos de dados são: primitives:
+* Boolean.
+* Null.
+* Undefined.
+* Number.
+* BigInt.
+* String.
+* Symbol.
+
+#### tipos de dados são: NÂOprimitives:
+* objetos.
+* Arrauys.
+----
+### Tipos Estrutura de dados img
+
+
+![imagen, Tipos Estrutura de dados](img/Tipos%20Estrutura%20de%20dados.png)
+
+
+
