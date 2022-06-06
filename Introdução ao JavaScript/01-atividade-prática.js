@@ -34,6 +34,8 @@ soma é 3, que é menor que 10 e menor que 20
 
 // }
 function comparaNumeros(num1, num2) {
+    if(!num1 || !num2) return "defina dois número!";
+
   const primeiraFrase = criaPrimeiraFrase(num1, num2);
   const sengundaFrase = criaSegundaFrase(num1, num2);
 
@@ -69,4 +71,4 @@ function criaSegundaFrase(num1, num2) {
   return `Sua soma é ${soma}, que é ${resultado10}, que 10 e ${resultado20}, que 20`;
 }
 
-console.log(comparaNumeros(17, 28))
+console.log(comparaNumeros())

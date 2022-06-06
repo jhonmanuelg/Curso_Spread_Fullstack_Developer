@@ -217,3 +217,49 @@ Aula 2: Tipos.
 
 Aula 3: Atividadre prática.
 
+## Var e let
+
+* Scope diferentes
+* Hoisting
+* Redeclaração
+* Reatribuição
+* camelCase
+
+----
+* Exemplo.
+
+var a = 1;
+var b = 2:
+
+if(a === 1)
+{
+ 
+ var a = 11; //scope global
+
+ let beraTere = 22; // scope de if-block
+
+ console.log(a); //11
+
+ console.log(beraTere); //22
+
+}; 
+
+console.log(a); //11
+
+console.log(b); //2
+
+### concepto de Hoisting.
+
+* É a razão pela qual você pode, às vezes, se deparar com o código de outras pessoas, no qual as variáveis são declaradas logo no topo e, em seguida, recebem valores posteriormente.
+
+
+## Variáveis e Tipos
+* Constantes
+
+1: const DAYS_IN_WEEK =7;
+
+2: const MY_NOME = "Kieran:
+
+* Declarada em SMAKE_UPPER_CASE.
+* Scope de bloco.
+* Não faz hoisting.
