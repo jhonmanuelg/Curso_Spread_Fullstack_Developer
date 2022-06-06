@@ -263,3 +263,16 @@ console.log(b); //2
 * Declarada em SMAKE_UPPER_CASE.
 * Scope de bloco.
 * Não faz hoisting.
+
+## Variáveis e Tipos let, var e const
+
+....................var ...... const ....let..
+
+scope.......Global uo local.....bloco....bloco..
+
+redeclarar......................sim........não........não....
+
+reatibuir.........................sim........não..........sim...
+
+hoisting..........................sin..........não...........não..
+
