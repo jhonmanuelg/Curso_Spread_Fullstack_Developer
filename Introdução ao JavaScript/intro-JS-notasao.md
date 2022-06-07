@@ -335,3 +335,9 @@ Os tipos de dados de uma variável Javascript podem ser: String: quase qualquer 
 
 
 ![Variáveis e Tipos Arrays](img/Vari%C3%A1veis%20e%20Tipos%20arrays.png)
+
+## Variáveis e Tipos Objetos
+
+* Estrutura tipo "chave e valor"
+
+![image, Objetos](img/tipo%20objeto.png)
