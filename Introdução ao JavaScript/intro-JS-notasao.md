@@ -324,3 +324,9 @@ Os tipos de dados de uma variável Javascript podem ser: String: quase qualquer 
 
 * 12358
 * 52.01
+
+## Variáveis e Tipos Booleans
+
+* São verdadeiro o falso
+
+
