@@ -346,3 +346,40 @@ Os tipos de dados de uma variável Javascript podem ser: String: quase qualquer 
 ## Variáveis e Tipos Empty, undefined e null
 
 
+*****
+
+## Funções Apresentação do curso
+
+### Ojetivo do curso.
+
+1: Mostrar como declarar funçães.
+
+2: Como manipular parâmetros.
+
+3: Apresentar loops e outras declarações.
+
+4: Apresentar o argumento "this".
+
+#### Percurso:
+Aula 1: Tipos de função
+
+Aula 2: Parâmetros
+
+Aula 3: Loops.
+
+Aula 4: A palavra "this"
+
+Aula 5: Arrow function
+
+Aula 6: Atividade Prática
+
+****
+
+### Funções Estrutura e Função anônima.
+
+#### Ojetivo
+
+1: Apresentar a estrutura de uma função.
+
+2: Alguns outros tipos de funções e como são utilizadas.
+
