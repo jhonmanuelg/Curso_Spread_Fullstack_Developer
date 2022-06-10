@@ -109,7 +109,7 @@ O que era um elemento indenpentiente se torma parte de um array.
 
 ****
 
-## Funções For e While.
+## Funções For e While, Do While.
 
 ### FOR:
 * Loop dentro de elementos iteráveis (arrays, strings). 
@@ -137,3 +137,49 @@ O que era um elemento indenpentiente se torma parte de um array.
 * Porém **a primeira execução sempre ocurre.**
 
 ![Do While](img/Do%20While.png "For Do While")
+
+***
+
+## Funções O que é This
+* A palavra reservada THIS é uma referência de contexto.
+* No exemplo, THIS refere-se ao objeto pessoa.
+
+![Funções com This](img/Fun%C3%A7%C3%B5es%20com%20This.png "Funções com This").
+
+* Seu valor pode mudar de acordo com o lugar np código onde foi chamado.
+
+![THIS: Valor pode mudar](img/THIS%20Valor%20pode%20mudar.png  "THIS: Valor pode mudar").
+
+* 1 exemplo:
+
+![Exemplo THIS Valor pode mudar](img/Exemplo%20THIS%20Valor%20pode%20mudar.png "Exemplo THIS Valor pode mudar")
+
+* 2 exemplo em um evento no HTML:
+
+![THIS em HTML em evento](img/THIS%20em%20HTML%20em%20evento.png "THIS em HTML em evento")
+****
+
+## Funções Manipulando seu valor
+
+### Metodo Call.
+* É possivel passar parámetros para essa função separando-os por virgulas.
+
+![Metodo Call.](img/Metodo%20Call.png "Metodo Call.")
+----
+![Metodo Call exemplo 2](img/Metodo%20Call%20exemplo%202.png "Metodo Call exemplo 2")
+-----
+
+### Função Apply.
+
+![Função Apply exemplo 1](img/Fun%C3%A7%C3%A3o%20Apply%20exemplo%201.png "Função Apply exemplo 1")
+----
+![Função Apply exemplo 2](img/Fun%C3%A7%C3%A3o%20Apply%20exemplo%202.png "Função Apply exemplo 2")
+
+* Diferencia de Apply é possivel passar parâmetros para essa função dentro de um array.
+
+![Diferencia de Apply](img/Diferencia%20de%20Apply.png "Diferencia de Apply")
+
+### Outro metodo é Bind.
+* Clona a estrutura da funççao onde é chamada e aplica o valor do objeto passado como parâmetro.
+
+![Outro metodo é Bind](img/Outro%20metodo%20%C3%A9%20Bind.png "Outro metodo é Bind")
