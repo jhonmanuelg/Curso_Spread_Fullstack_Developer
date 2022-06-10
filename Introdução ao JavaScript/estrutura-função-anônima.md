@@ -182,4 +182,26 @@ O que era um elemento indenpentiente se torma parte de um array.
 ### Outro metodo é Bind.
 * Clona a estrutura da funççao onde é chamada e aplica o valor do objeto passado como parâmetro.
 
-![Outro metodo é Bind](img/Outro%20metodo%20%C3%A9%20Bind.png "Outro metodo é Bind")
+![Outro metodo é Bind](img/Outro%20metodo%20%C3%A9%20Bind.png "Outro metodo é Bind").
+****
+## Funções Sintaxe e outras restrições (Arrow function)
+
+* Objetivo es presentar a sintaxe de Arroe Function.
+
+ ![Arrow function](img/Arrays.png "Arrow function").
+
+### Algumas reglas Arrow function
+* Caso exita apenas uma linha, pode dispensar as chaves e o return.
+* Caso exista apenas uma parâmetro, pode dispensar os parênteses.
+
+![Algumas reglas Arrow function](img/Algumas%20reglas%20Arrow%20function.png "Algumas reglas Arrow function")
+
+### Reglas Arrow function não faz hosting
+
+![hosting](img/Arrow%20function%20n%C3%A3o%20faz%20hosting.png "Não faz hosting").
+
+### Outras restrinções Arrow function TEM.
+- "this"  Sempre será o objeto global. Métodos para modificar seu valor não irão funcionar.
+- Não existe o objeto "arguments".
+-O construtur (ex: new MeuObjeto()) também não pode ser utilizado.
+
