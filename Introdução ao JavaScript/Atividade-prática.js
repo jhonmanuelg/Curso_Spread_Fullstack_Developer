@@ -66,3 +66,5 @@ const aminal = {
 console.log(calculaIdade.call(pessao1, 40))
 console.log(calculaIdade.apply(pessao2, [56]))
 console.log(calculaIdade.call(aminal, 10))
+
+
